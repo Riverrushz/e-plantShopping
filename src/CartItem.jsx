@@ -26,6 +26,8 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleDecrement = (item) => {
+    if(item.quantity = 0){ removeItem }
+    else
     dispatch(updateQuantity({ name: item.name, quantity: item.quantity - 1 }));
    
   };
