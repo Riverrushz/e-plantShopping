@@ -16,6 +16,9 @@ const CartItem = ({ onContinueShopping }) => {
    
   };
 
+  const handleCheckoutShopping = (e) => {
+     alert("");
+  };
 
 
   const handleIncrement = (item) => {
